@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header() {
     return (
-        <header>
-            <h1>I am a header</h1>
+        <header className="Header">
+            <h1 className="h1">Keep Clone</h1>
         </header>
     );
 }
