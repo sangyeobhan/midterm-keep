@@ -11,9 +11,14 @@ export default function Body() {
         setNotes(updatedNoteArray);
     };
 
+    const addNote = (note) => {
+        const updatedNoteArray = [...noteArray, { key: Date.now(), ...note }];
+        setNotes(updatedNoteArray);
+    };
+
     return (
         <div className="body">
-            <InputForm />
+            <InputForm addNote={addNote} />
             <div className="notesContainer">
                 {noteArray.map((note) => {
                     return (
