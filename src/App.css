@@ -18,6 +18,7 @@
     font-size: 40px;
     font-weight: 500;
 }
+
 .body {
     flex: 1;
     display: flex;
@@ -38,7 +39,7 @@
 
 .inputForm {
     width: 480px;
-    height: 146px;
+    min-height: 146px;
     border-radius: 20px;
     border: 2px solid #d3d3d3;
     padding: 15px;
@@ -48,9 +49,20 @@
 
 .inputTitle {
     width: 100%;
-    padding: 10px 0;
+    padding: 0 0 15px 2px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 0;
 }
 
+.inputContent {
+    width: 100%;
+    height: 78px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    resize: none;
+}
 .notesContainer {
     padding: 20px 0;
     width: 100%;

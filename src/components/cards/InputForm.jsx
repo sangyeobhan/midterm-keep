@@ -10,7 +10,7 @@ export default function InputForm() {
             />
             <textarea
                 className="inputContent"
-                placeholder="Enter content"
+                placeholder="Enter content..."
             ></textarea>
             <div className="buttonContainer">
                 <button className="button">Add</button>
