@@ -100,12 +100,14 @@
 
 .note .title {
     margin: 0 0 15px 0;
-    display: flex;
-    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-align: left;
 }
 
 .note .content {
     margin: 0 0 15px 0;
-    display: flex;
-    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-align: left;
 }
