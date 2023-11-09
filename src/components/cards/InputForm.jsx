@@ -20,9 +20,9 @@ export default function InputForm({ addNote }) {
     };
 
     return (
-        <form className="inputForm" onSubmit={handleSubmit}>
+        <form className="input-form" onSubmit={handleSubmit}>
             <input
-                className="inputTitle"
+                className="input-title"
                 name="title"
                 type="text"
                 placeholder="Enter title"
@@ -30,13 +30,13 @@ export default function InputForm({ addNote }) {
                 onChange={updateTitle}
             />
             <textarea
-                className="inputContent"
+                className="input-content"
                 name="content"
                 placeholder="Enter content..."
                 value={content}
                 onChange={updateContent}
             ></textarea>
-            <div className="buttonContainer">
+            <div className="button-container">
                 <button className="button">Add</button>
             </div>
         </form>

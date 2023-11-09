@@ -5,7 +5,7 @@ export default function Note({ note, hanleDeleteButton }) {
         <div className="note">
             <h1 className="title">{note.title}</h1>
             <p className="content">{note.content}</p>
-            <div className="buttonContainer">
+            <div className="button-container">
                 <button className="button" onClick={hanleDeleteButton}>
                     Delete
                 </button>

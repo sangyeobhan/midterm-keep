@@ -19,7 +19,7 @@ export default function Body() {
     return (
         <div className="body">
             <InputForm addNote={addNote} />
-            <div className="notesContainer">
+            <div className="notes-container">
                 {noteArray.map((note) => {
                     return (
                         <Note
