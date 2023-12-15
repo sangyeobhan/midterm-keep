@@ -14,9 +14,11 @@ export default function InputForm({ addNote }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        addNote({ title, content });
-        setTitle("");
-        setContent("");
+        if (title.trim() !== "" && content.trim() !== "") {
+            addNote({ title, content });
+            setTitle("");
+            setContent("");
+        }
     };
 
     return (
